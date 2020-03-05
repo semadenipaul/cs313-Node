@@ -1,0 +1,15 @@
+{
+  "name": "assign_09",
+  "version": "1.0.0",
+  "description": "A web application that will determine the postage required for a single piece of retail first-class mail.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Semadeni",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

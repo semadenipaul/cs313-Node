@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/assign_09.css">
+    <title>Postal Rate Calculator | Total</title>
+</head>
+<body>
+    <h1>Postal Rate Calculator</h1>
+    <form class="grid-container">
+        <div class="item1">
+            <p>Your total amount is $<%= res %>.</p>
+            <p><button type="button" value="back" onclick="goBack()" class="button"><span>Back</span></button></p>
+        </div>
+    </form>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
